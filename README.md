@@ -13,7 +13,8 @@ All information are stored int the projectData object in the server.js file.
 To get real-time weather information, the data are aquired from OpenWeatherMap API via an asynchronous API call, processed and added to the server data object. 
 
 ## Usage
-To run this code on your machine you simply need to download or clone this repository
+To run this code on your machine you simply need to download or clone this repository.
+__ Please be advised that this app accepts only US Zip Codes!!! __
 
 ## Tech
  - HTML
@@ -26,7 +27,7 @@ To run this app you need to
 - Download or clone this repository
 - run ```npm install```
 - run ```node server.js``` to start the server
-- have fun! 
+- open ```http://localhost:8000/```
 
-## IMPORTANT
-Please be advised that this app accepts only US Zip Codes!!! 
+Have fun! 
+
