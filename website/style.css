@@ -1,0 +1,95 @@
+:root {
+
+    --main-color:  #fdd700;
+    --accent-grey: #28072c;
+    --accent-teal: #7b97bb;
+    --accent-darkpink: #632a44;
+    
+}
+
+body{
+    background: var(--accent-grey);
+    background: linear-gradient(180deg, var(--accent-grey) 20%, var(--accent-darkpink) 100%);
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    box-sizing: border-box;
+}
+
+#app{
+    display: grid;
+    grid-auto-rows: minmax(80px, auto);
+    /* grid-template-columns:  */
+    height:100vh;
+    background: var(--dark-color);
+    color:var(--main-color);
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#date, #temp, #content{
+    font-size: 20px;
+}
+
+.entry{
+    background: var(--accent-teal);
+    color: var(--accent-grey); 
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+label{
+    display:block;
+    font-size: 27px;
+}
+
+input{
+    display:block;
+    height: 60px;
+    width: 320px;
+    background: var(--accent-teal);
+    color: var(--accent-grey);
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+}
+
+button{
+    cursor:pointer;
+    width: 200px;
+    height: 50px;
+    background: var(--main-color);
+    color: var(--accent-grey);
+    font-size: 26px;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    box-shadow: 2px 4px 5px #444;
+}
+
+.entry{
+    height: 35vh;
+}
+
+h1{
+    font-size: 50px;
+}
+
+textarea{
+    background: var(--accent-teal);
+    color:var(--accent-grey);
+    font-size: 24px;
+    font-family: 'Oswald', sans-serif;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder, :-ms-input-placeholde, ::-ms-input-placeholder   { 
+    color:var(--accent-grey);
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
