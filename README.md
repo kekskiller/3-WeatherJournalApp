@@ -14,7 +14,7 @@ To get real-time weather information, the data are aquired from OpenWeatherMap A
 
 ## Usage
 To run this code on your machine you simply need to download or clone this repository.
-*Please be advised that this app accepts only US Zip Codes!!!*
+_Please be advised that this app accepts only US Zip Codes!!!_
 
 ## Tech
  - HTML
