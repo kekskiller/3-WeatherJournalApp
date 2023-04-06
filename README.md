@@ -22,6 +22,7 @@ Possible Zip Codes are:
   - Los Angeles -> 90001
   - Boston -> 02108
   - ... and many more!
+ __As this Project passed, please enter your own APIKey in app.js!!!__
 
 ## Tech
  - HTML
