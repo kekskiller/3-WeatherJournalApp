@@ -12,10 +12,8 @@ This project displays the usage of Node.js, asynchonous functions and web API re
 All information are stored int the projectData object in the server.js file. 
 To get real-time weather information, the data are aquired from OpenWeatherMap API via an asynchronous API call, processed and added to the server data object. 
 
-
 ## Usage
 To run this code on your machine you simply need to download or clone this repository
-In case you want to add more sections, simply add them to the html following the given structure
 
 ## Tech
  - HTML
