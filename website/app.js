@@ -7,10 +7,9 @@ const apiKey = '7430d094dfac445bedfd9826523f7cd3&units=imperial';
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-const mNames = ["January", "February", "March", "April", "May", "June",
-  "July", "August", "September", "October", "November", "December"];
+const mNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-let newDate = mNames[d.getMonth()]+' '+ d.getDate()+'th '+ d.getFullYear();
+let newDate = d.getDate() + '. '+ mNames[d.getMonth()] + ' ' + d.getFullYear();
 
 //Get All Data
 const getAllData = async() => {
