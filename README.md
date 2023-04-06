@@ -13,8 +13,15 @@ All information are stored int the projectData object in the server.js file.
 To get real-time weather information, the data are aquired from OpenWeatherMap API via an asynchronous API call, processed and added to the server data object. 
 
 ## Usage
-To run this code on your machine you simply need to download or clone this repository.
-> __Please be advised that this app accepts only US Zip Codes!!!__
+To run this code on your machine you simply need to download or clone this repository.  
+ __Please be advised that this app accepts only US Zip Codes!!!__
+Possible Zip Codes are: 
+  - New York -> 10001
+  - Chicago -> 60007
+  - Las Vegas -> 88901
+  - Los Angeles -> 90001
+  - Boston -> 02108
+  - ... and many more!
 
 ## Tech
  - HTML
